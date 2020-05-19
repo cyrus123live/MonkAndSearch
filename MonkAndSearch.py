@@ -22,12 +22,8 @@ for i in range(size):
 
 numOfQueries = int(input())
 
-##for i in range(int(input())):
-
 for i in range(numOfQueries):
     array = input().split(" ")
-    ## intArray.sort()
-    ## if (int(input[0]) == 0):
     index = findNum(int(array[1]), intArray)
     if (index != -1):
         if (int(array[0]) == 0):
